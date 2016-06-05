@@ -1,0 +1,30 @@
+{
+  "require": {
+    "php": ">=5.5",
+    "mf2/mf2": "~0.3",
+    "indieweb/mention-client": "~1.1",
+    "indieauth/client": "0.1.*",
+    "league/route": "~1.2",
+    "league/plates": "~3.1",
+    "j4mie/idiorm": "1.5.*",
+    "p3k/caterpillar": "0.1.*",
+    "predis/predis": "1.*",
+    "monolog/monolog": "1.*",
+    "mikehaertl/phpwkhtmltopdf": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lithograph\\": "lib/Lithograph/"
+    },
+    "files": [
+      "lib/helpers.php",
+      "controllers/Controller.php",
+      "controllers/Auth.php"
+    ]
+  },
+  "autoload-dev": {
+  }
+}
